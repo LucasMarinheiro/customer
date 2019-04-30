@@ -10,7 +10,7 @@ import java.util.Optional;
 
 @CrossOrigin
 @RestController
-@RequestMapping("/typeaddress")
+@RequestMapping("/type_address")
 public class TypeAddressResources {
     private final TypeAddressService typeAddressService;
 
