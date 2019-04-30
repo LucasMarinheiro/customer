@@ -3,20 +3,20 @@ package com.register.customer.domain;
 import javax.persistence.*;
 
 @Entity
-public class Adress {
+public class TypeAddress {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String name;
     private Boolean active;
 
-    public Adress(){}
+    public TypeAddress(){}
 
     public Long getId() {
         return id;
     }
 
-    public Adress setId(Long id) {
+    public TypeAddress setId(Long id) {
         this.id = id;
         return this;
     }
@@ -25,7 +25,7 @@ public class Adress {
         return name;
     }
 
-    public Adress setName(String name) {
+    public TypeAddress setName(String name) {
         this.name = name;
         return this;
     }
@@ -34,7 +34,7 @@ public class Adress {
         return active;
     }
 
-    public Adress setActive(Boolean active) {
+    public TypeAddress setActive(Boolean active) {
         this.active = active;
         return this;
     }
